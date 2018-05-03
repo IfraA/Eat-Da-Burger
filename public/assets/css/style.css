@@ -1,0 +1,57 @@
+html {
+    background-color: #FFC04C;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+img {
+    display: block;
+  align-content: center;
+  margin-left: 400px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: rgb(101, 100, 99);
+    margin: 50px;
+}
+
+.row{
+    margin-left: 100px;
+}
+button{
+    background-color:  #FFC04C;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+h2{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(101, 100, 99);
+}
+
+#name{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(101, 100, 99);
+    padding: 10px;
+}
+

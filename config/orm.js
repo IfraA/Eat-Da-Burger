@@ -40,7 +40,7 @@ var orm = {
     },
     //function that inserts a single entry
     insertOne: function (table, cols, vals, cb) {
-        var queryString = "INSERT INTO" + table;
+        var queryString = "INSERT INTO " + table;
         queryString += " (";
         queryString += cols.toString();
         queryString += ") ";
